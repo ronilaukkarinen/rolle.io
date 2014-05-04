@@ -1,0 +1,327 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+body {
+/*background:url(images/background.png) repeat-x 0 -110px #383f49;*/
+/*background:url(images/radialbg.png) repeat-x 0 0 #484f5a;*/
+background:#484f5a;;
+margin:0;
+padding:0;
+}
+header h1, header h2 {
+display:none;
+}
+#radialleft {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+filter: alpha(opacity=50);
+-moz-opacity: 0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;
+background:url(images/radialleft.png) no-repeat;
+width:506px;
+height:685px;
+position:absolute;
+top:0;
+left:0;
+right:auto;
+left:auto;
+z-index:0;
+}
+#radialright {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+filter: alpha(opacity=50);
+-moz-opacity: 0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;
+background:url(images/radialright.png) no-repeat;
+width:507px;
+height:685px;
+position:absolute;
+top:0;
+right:0;
+left:auto;
+z-index:0;
+}
+header {
+background:url(images/header2.png) 0 0 no-repeat;
+width:504px;
+height:125px;
+margin:20px auto;
+z-index:3;
+position:relative;
+}
+#wrapper {
+font-family: 'Open Sans Condensed', sans-serif;
+font-size:18px;
+width:600px;
+height:600px;
+color:#888;
+position:absolute;
+left:50%;
+top:50%;
+margin-left:-300px;
+margin-top:-300px;
+}
+footer {
+text-align:center;
+color:#838C9B;
+margin:0;
+padding:30px;
+font-size:22px;
+width:520px;
+text-shadow:#000000 1px 1px 1px;
+}
+.exlink {
+margin:10px 0 0 0;
+font-size:40px;
+}
+footer p {
+margin:0;
+padding:0;
+}
+footer a {
+text-shadow:-1px -1px 0px #292D34,1px 1px 0px #3E444E !important;
+color:#6B7483;
+text-decoration:none;
+-webkit-transition: all 0.22s ease-out;-moz-transition: all 0.22s ease-out;-o-transition: all 0.22s ease-out;
+}
+footer a:hover {
+color:#7D8695;
+text-decoration:none;
+}
+.description {
+margin:10px 0 40px 20px;
+text-align:center;
+}
+#linkedin {
+background:url(images/linkedin.png) no-repeat;
+width:258px;
+height:69px;
+display:block;
+text-indent:-9999px;
+overflow:hidden;
+}
+#linkedin:hover {
+background-position:0 -70px;
+}
+#behance {
+background:url(images/behance.png) no-repeat;
+width:270px;
+height:47px;
+display:block;
+text-indent:-9999px;
+overflow:hidden;
+}
+#behance:hover {
+background-position:0 -47px;
+}
+#resume {
+margin:0 40px 0 0;
+float:left;
+}
+#portfolio {
+float:left;
+}
+.work {
+margin:0 0 0 20px;
+overflow:auto;
+z-index:5;
+position:relative;
+}
+.imsocial {
+margin:50px 0 0 20px;
+overflow:auto;
+z-index:5;
+position:relative;
+}
+#imsocial {
+background:url(images/imsocial.png) no-repeat;
+width:88px;
+height:16px;
+display:block;
+text-indent:-9999px;
+overflow:hidden;
+margin:0 0 15px 0;
+}
+.resume {
+background:url(images/resume.png) no-repeat;
+width:77px;
+height:17px;
+display:block;
+text-indent:-9999px;
+overflow:hidden;
+margin:0;
+}
+.portfolio {
+background:url(images/portfolio.png) no-repeat;
+width:82px;
+height:17px;
+display:block;
+text-indent:-9999px;
+overflow:hidden;
+margin:0 0 11px 0;
+}
+.imsocial ul, .imsocial ul li, #resume ul, #resume ul li, #portfolio ul, #portfolio ul li {
+margin:0;
+padding:0;
+list-style:none;
+}
+.imsocial a {
+background:url(images/some.png) no-repeat;
+display:block;
+text-indent:-9999px;
+overflow:hidden;
+height:39px;
+float:left;
+margin:0 20px 8px 0;
+}
+#facebook {
+background-position:-7px -5px;
+width:94px;
+}
+#facebook:hover {
+background-position:-7px -156px;
+}
+#twitter {
+background-position:-109px -5px;
+width:100px;
+}
+#twitter:hover {
+background-position:-109px -156px;
+}
+#youtube {
+background-position:-217px -5px;
+width:72px;
+}
+#youtube:hover {
+background-position:-217px -156px;
+}
+#lastfm {
+background-position:-300px -5px;
+width:80px;
+}
+#lastfm {
+background-position:-300px -5px;
+}
+#lastfm:hover {
+background-position:-300px -156px;
+}
+#vimeo {
+background-position:-390px -5px;
+width:81px;
+}
+#vimeo:hover {
+background-position:-390px -156px;
+}
+#flickr {
+background-position:-14px -41px;
+width:67px;
+}
+#flickr:hover {
+background-position:-14px -192px;
+}
+#myspace {
+background-position:-96px -41px;
+width:105px;
+}
+#myspace:hover  {
+background-position:-96px -192px;
+}
+#tumblr {
+background-position:-209px -41px;
+width:104px;
+}
+#tumblr:hover  {
+background-position:-209px -192px;
+}
+#foursquare {
+background-position:-322px -41px;
+width:105px;
+}
+#foursquare:hover {
+background-position:-322px -192px;
+}
+#pingfm {
+background-position:-439px -41px;
+width:55px;
+}
+#pingfm:hover {
+background-position:-439px -192px;
+}
+#delicious {
+background-position:-10px -77px;
+width:135px;
+height:37px !important;
+margin-top:4px !important;
+}
+#delicious:hover {
+background-position:-10px -228px !important;
+}
+#picplz {
+background-position:-159px -77px;
+width:88px;
+margin-top:4px !important;
+}
+#picplz:hover {
+background-position:-159px -228px;
+}
+#wakoopa {
+background-position:-261px -77px;
+width:101px;
+margin-top:4px !important;
+}
+#wakoopa:hover {
+background-position:-261px -228px;
+}
+#googleplus {
+background-position:-374px -78px;
+width:92px;
+}
+#googleplus:hover {
+background-position:-374px -229px;
+}
+#spotify {
+background-position:-17px -113px;
+width:85px;
+margin-top:4px !important;
+}
+#spotify:hover {
+background-position:-17px -265px;
+}
+#instagram {
+background-position:-111px -114px;
+width:116px;
+margin-top:4px !important;
+}
+#instagram:hover {
+background-position:-111px -266px;
+}
+#letterboxd {
+background-position:-236px -114px;
+width:160px;
+margin-top:4px !important;
+}
+#letterboxd:hover {
+background-position:-236px -270px;
+}
+	#left, #right {
+		position: fixed;
+		top: 0; bottom: 0;
+		width: 88px;
+		}
+		#left { left: 0;  background: url(images/left.png) left center repeat-y;}
+		#right { right: 0; background: url(images/right.png) right center repeat-y;}
+		
+	#top, #bottom {
+		position: fixed;
+		left: 0; right: 0;
+		height: 88px;
+		}
+		#top { top: 0px; background: url(images/top.png) top center repeat-x; }
+		#bottom { bottom: 0px; background: url(images/bottom.png) bottom center repeat-x; }
+
+.edge {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+filter: alpha(opacity=50);
+-moz-opacity: 0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;
+}
