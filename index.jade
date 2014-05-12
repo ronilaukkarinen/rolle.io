@@ -17,12 +17,12 @@ html(lang=en)
 	body
 		div#wrapper
 			section.card.section
-				img(src="img/rolle-128x128.png" alt="Rolle")
+				a(href="http://rolle.io")
+					img(src="img/rolle-128x128.png" alt="Rolle")
 	
-				header.information
+				header.information.smallsection
 					h1 Roni Laukkarinen 
-					p Front End Web developer <a href="http://www.dude.fi">@dude</a>. Loves SASS, PHP, jQuery and Macbook Pro.
-					p But that's not all. Hover me:
+					p.description Front End Web developer <a href="http://www.dude.fi">@dude</a>. Loves SASS, PHP, jQuery and Macbook Pro.
 
 					ul.details
 						li.flag.hoverme
@@ -67,11 +67,16 @@ html(lang=en)
 								h2 Blogger
 									p I have 7 blogs in total. Only blog in English is currently <a href="http://problemsolv.in">Problemsolv.in</a>. Considering blogging here at rolle.io about web design.
 
+				section.section.smallsection
+					ul#lifestream
+
 			footer#footer 
 				p This page is hand crafted using Jade, SASS and jQuery.
 
 script(src="/js/jquery-1.9.0.min.js")
+script(src="/js/jquery.timeago.min.js")
 script(src="/js/jquery.smallipop.min.js")
+script(src="/js/jquery.lifestream.custom.min.js")
 script(src="/js/scripts.min.js")
 
 <!--[if lt IE 9]>
