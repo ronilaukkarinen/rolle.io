@@ -131,7 +131,7 @@ $('.hoverme').smallipop({
       };
 
       $("#lifestream").lifestream({
-        limit: 100,
+        limit: 30,
         list: list,
         feedloaded: function(){
           count++;

@@ -7,6 +7,7 @@
 @import 'jquery.smallipop';
 @import 'hover';
 @import 'lifestream';
+@import 'jeet/index';
 
 $baseFontSize: 10; // Based on HTML reset html { font-size: 62.5%; }
  
@@ -126,6 +127,8 @@ html {
 
 body {
 	background:#f1f1f1;
+	padding:0;
+	margin:0;
 }
 
 .description {
@@ -139,15 +142,14 @@ body {
 }
 
 #wrapper {
-	max-width:700px;
-	width:100%;
+	@include col(1/1);
+	overflow:hidden;
 	@include rem(margin,30px auto);
 	color:#222;
 	@include rem(padding,0);
 
 	.smallsection {
 		margin:0 auto;
-		max-width:400px;
 		width:100%;
 	}
 
@@ -169,21 +171,6 @@ body {
 		word-spacing: 1px;
 		text-shadow:1px 1px 1px #fff;
 		text-align:center;
-	}
-
-}
-
-@media(max-width:770px) {
-
-	#wrapper {
-		max-width:500px;
-	}
-}
-
-@media(max-width:500px) {
-
-	#wrapper {
-		max-width:400px;
 	}
 
 }
@@ -232,6 +219,7 @@ a:hover {
 .details {
 	@include rem(margin,23px 0);
 	@include rem(padding,10px);
+	margin:0 auto;
 }
 
 .details li {
@@ -314,6 +302,15 @@ a:hover {
 	color:purple;
 	@extend .push;
 }
+.twitter:hover {
+	color:#55acee;
+	@extend .pop;
+}
+.instagram:hover {
+	color:#3f729b;
+	@extend .wobble-top;
+}
+
 
 .hoverme {
 	cursor:pointer;
@@ -358,5 +355,11 @@ a:hover {
 
 	.timeago {
 		@include opacity(0.5);
+	}
+}
+
+@media(min-width:770px) {
+	.description {
+		max-width:380px;
 	}
 }
