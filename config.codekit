@@ -2,1021 +2,747 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16903",
 "files": {
-	"\/2012\/calendar\/archive\/2084c397356eced98f5f2893e7a07f39embedcompiled.css": {
-		"fileType": 16,
+	"\/config.rb": {
+		"fileType": 131072,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/2084c397356eced98f5f2893e7a07f39embedcompiled.css",
+		"inputAbbreviatedPath": "\/config.rb",
+		"outputAbbreviatedPath": "\/config.rb",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/font-awesome.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/font-awesome.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/2012\/calendar\/archive\/2084c397356eced98f5f2893e7a07f39embedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/2084c397356eced98f5f2893e7a07f39embedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/2084c397356eced98f5f2893e7a07f39embedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/archive\/2f22eb88b4ecf0afbdcb55c318628194embedcompiled.css": {
+	"\/css\/ie.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/2f22eb88b4ecf0afbdcb55c318628194embedcompiled.css",
+		"inputAbbreviatedPath": "\/css\/ie.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/2012\/calendar\/archive\/2f22eb88b4ecf0afbdcb55c318628194embedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/2f22eb88b4ecf0afbdcb55c318628194embedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/2f22eb88b4ecf0afbdcb55c318628194embedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/archive\/371be1f592b0b5f982952f457d82fd40embedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/371be1f592b0b5f982952f457d82fd40embedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/371be1f592b0b5f982952f457d82fd40embedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/archive\/371be1f592b0b5f982952f457d82fd40embedcompiled_doozer.css": {
+	"\/css\/layout.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/371be1f592b0b5f982952f457d82fd40embedcompiled_doozer.css",
+		"inputAbbreviatedPath": "\/css\/layout.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/2012\/calendar\/archive\/3fb8bd9a6d993cca9dcbe1ec342ddb3dembedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/3fb8bd9a6d993cca9dcbe1ec342ddb3dembedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/3fb8bd9a6d993cca9dcbe1ec342ddb3dembedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/archive\/3fb8bd9a6d993cca9dcbe1ec342ddb3dembedcompiled_doozer.css": {
+	"\/css\/print.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/3fb8bd9a6d993cca9dcbe1ec342ddb3dembedcompiled_doozer.css",
+		"inputAbbreviatedPath": "\/css\/print.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/2012\/calendar\/archive\/418e9f0472d87c0bcaa3f1bde835d6f0embedcompiled.css": {
+	"\/css\/screen.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/418e9f0472d87c0bcaa3f1bde835d6f0embedcompiled.css",
+		"inputAbbreviatedPath": "\/css\/screen.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/2012\/calendar\/archive\/418e9f0472d87c0bcaa3f1bde835d6f0embedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/418e9f0472d87c0bcaa3f1bde835d6f0embedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/418e9f0472d87c0bcaa3f1bde835d6f0embedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/archive\/54b758d4351f194d40f58a533dce29b1embedcompiled.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/54b758d4351f194d40f58a533dce29b1embedcompiled.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/calendar\/archive\/6a3eb8ba4a07edb76f79a18d6bdb8933embedcompiled.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/6a3eb8ba4a07edb76f79a18d6bdb8933embedcompiled.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/calendar\/archive\/6a3eb8ba4a07edb76f79a18d6bdb8933embedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/6a3eb8ba4a07edb76f79a18d6bdb8933embedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/6a3eb8ba4a07edb76f79a18d6bdb8933embedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/archive\/92e1900d06b81f89c98e4647645bdab3embedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/92e1900d06b81f89c98e4647645bdab3embedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/92e1900d06b81f89c98e4647645bdab3embedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/archive\/a6eb3d8ae48dacaa2d762ae8149978baembedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/a6eb3d8ae48dacaa2d762ae8149978baembedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/a6eb3d8ae48dacaa2d762ae8149978baembedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/archive\/a6eb3d8ae48dacaa2d762ae8149978baembedcompiled_fastui.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/a6eb3d8ae48dacaa2d762ae8149978baembedcompiled_fastui.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/calendar\/archive\/e0437df6468589031e718f3606b03917embedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/e0437df6468589031e718f3606b03917embedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/e0437df6468589031e718f3606b03917embedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/archive\/e0437df6468589031e718f3606b03917embedcompiled_fastui.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/e0437df6468589031e718f3606b03917embedcompiled_fastui.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/calendar\/archive\/eb7088c151342616fe33496027d64317embedcompiled.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/eb7088c151342616fe33496027d64317embedcompiled.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/calendar\/archive\/eb7088c151342616fe33496027d64317embedcompiled__en.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/archive\/eb7088c151342616fe33496027d64317embedcompiled__en.js",
-		"outputAbbreviatedPath": "\/2012\/calendar\/archive\/eb7088c151342616fe33496027d64317embedcompiled__en.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/2012\/calendar\/images\/appointment_block.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 204,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/appointment_block.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/appointment_block.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/bubble_combined.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1969,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/bubble_combined.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/bubble_combined.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/bubble_combined_v2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1526,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/bubble_combined_v2.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/bubble_combined_v2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/combined_v21.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5912,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/combined_v21.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/combined_v21.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/header-bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3785,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/header-bg.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/header-bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/iw_e.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 311,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/iw_e.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/iw_e.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/iw_n.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 226,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/iw_n.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/iw_n.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/iw_ne.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 601,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/iw_ne.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/iw_ne.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/iw_nw.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 559,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/iw_nw.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/iw_nw.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/iw_s.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 523,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/iw_s.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/iw_s.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/iw_se.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 589,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/iw_se.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/iw_se.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/iw_sw.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 616,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/iw_sw.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/iw_sw.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/iw_tap.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2245,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/iw_tap.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/iw_tap.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/iw_w.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 309,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/iw_w.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/iw_w.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/images\/poweredby.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3505,
-		"inputAbbreviatedPath": "\/2012\/calendar\/images\/poweredby.png",
-		"outputAbbreviatedPath": "\/2012\/calendar\/images\/poweredby.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/calendar\/index.html": {
+	"\/fonts\/gotham\/gotham-bold-webfont-demo.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/index.html",
+		"inputAbbreviatedPath": "\/fonts\/gotham\/gotham-bold-webfont-demo.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/2012\/calendar\/phpinfo.php": {
+	"\/fonts\/gotham\/gotham-light-webfont-demo.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/phpinfo.php",
+		"inputAbbreviatedPath": "\/fonts\/gotham\/gotham-light-webfont-demo.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/2012\/calendar\/restylegc-js.php": {
+	"\/fonts\/gotham\/gotham-medium-webfont-demo.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/restylegc-js.php",
+		"inputAbbreviatedPath": "\/fonts\/gotham\/gotham-medium-webfont-demo.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/2012\/calendar\/restylegc.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/restylegc.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/calendar\/restylegc.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/calendar\/restylegc.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/favicon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11593,
-		"inputAbbreviatedPath": "\/2012\/favicon.png",
-		"outputAbbreviatedPath": "\/2012\/favicon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/asd.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 270620,
-		"inputAbbreviatedPath": "\/2012\/images\/asd.png",
-		"outputAbbreviatedPath": "\/2012\/images\/asd.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/background.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3444,
-		"inputAbbreviatedPath": "\/2012\/images\/background.png",
-		"outputAbbreviatedPath": "\/2012\/images\/background.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/behance.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28934,
-		"inputAbbreviatedPath": "\/2012\/images\/behance.png",
-		"outputAbbreviatedPath": "\/2012\/images\/behance.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/bottom.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 193,
-		"inputAbbreviatedPath": "\/2012\/images\/bottom.png",
-		"outputAbbreviatedPath": "\/2012\/images\/bottom.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/header2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 31010,
-		"inputAbbreviatedPath": "\/2012\/images\/header2.png",
-		"outputAbbreviatedPath": "\/2012\/images\/header2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/imsocial.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4887,
-		"inputAbbreviatedPath": "\/2012\/images\/imsocial.png",
-		"outputAbbreviatedPath": "\/2012\/images\/imsocial.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/left.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 201,
-		"inputAbbreviatedPath": "\/2012\/images\/left.png",
-		"outputAbbreviatedPath": "\/2012\/images\/left.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/linkedin.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16351,
-		"inputAbbreviatedPath": "\/2012\/images\/linkedin.png",
-		"outputAbbreviatedPath": "\/2012\/images\/linkedin.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 24245,
-		"inputAbbreviatedPath": "\/2012\/images\/logo.png",
-		"outputAbbreviatedPath": "\/2012\/images\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/photo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29351,
-		"inputAbbreviatedPath": "\/2012\/images\/photo.jpg",
-		"outputAbbreviatedPath": "\/2012\/images\/photo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/portfolio.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4702,
-		"inputAbbreviatedPath": "\/2012\/images\/portfolio.png",
-		"outputAbbreviatedPath": "\/2012\/images\/portfolio.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/radialbg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2989,
-		"inputAbbreviatedPath": "\/2012\/images\/radialbg.png",
-		"outputAbbreviatedPath": "\/2012\/images\/radialbg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/radialleft.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29663,
-		"inputAbbreviatedPath": "\/2012\/images\/radialleft.png",
-		"outputAbbreviatedPath": "\/2012\/images\/radialleft.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/radialright.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32077,
-		"inputAbbreviatedPath": "\/2012\/images\/radialright.png",
-		"outputAbbreviatedPath": "\/2012\/images\/radialright.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/resume.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4962,
-		"inputAbbreviatedPath": "\/2012\/images\/resume.png",
-		"outputAbbreviatedPath": "\/2012\/images\/resume.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/right.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 195,
-		"inputAbbreviatedPath": "\/2012\/images\/right.png",
-		"outputAbbreviatedPath": "\/2012\/images\/right.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/some.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 128345,
-		"inputAbbreviatedPath": "\/2012\/images\/some.png",
-		"outputAbbreviatedPath": "\/2012\/images\/some.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/images\/top.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 206,
-		"inputAbbreviatedPath": "\/2012\/images\/top.png",
-		"outputAbbreviatedPath": "\/2012\/images\/top.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/2012\/includes\/aboutPage.class.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/includes\/aboutPage.class.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/includes\/config.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/includes\/config.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/includes\/vcard.class.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/includes\/vcard.class.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/2012\/js\/jquery-1.2.6.min.js": {
+	"\/fonts\/gotham\/specimen_files\/easytabs.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/js\/jquery-1.2.6.min.js",
-		"outputAbbreviatedPath": "\/2012\/js\/jquery-1.2.6.min.min.js",
+		"inputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/easytabs.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/2012\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/2012\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/favicon.png": {
+	"\/fonts\/gotham\/specimen_files\/gotham-bold-webfont-cleartype.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 55233,
-		"inputAbbreviatedPath": "\/favicon.png",
-		"outputAbbreviatedPath": "\/favicon.png",
+		"initialSize": 82514,
+		"inputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/gotham-bold-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/gotham-bold-webfont-cleartype.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/hits.php": {
-		"fileType": 8192,
+	"\/fonts\/gotham\/specimen_files\/gotham-light-webfont-cleartype.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/hits.php",
+		"initialSize": 81182,
+		"inputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/gotham-light-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/gotham-light-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/gotham\/specimen_files\/gotham-medium-webfont-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83102,
+		"inputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/gotham-medium-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/gotham-medium-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/gotham\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/grid_12-825-55-15.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/back-300x300.png": {
+	"\/fonts\/gotham\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/gotham\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/gotham\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/gotham\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/minionpro\/minionpro-it-webfont-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/minionpro-it-webfont-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/minionpro\/minionpro-regular-webfont-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/minionpro-regular-webfont-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/minionpro\/minionpro-semibold-webfont-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/minionpro-semibold-webfont-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/minionpro\/minionpro-semiboldit-webfont-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/minionpro-semiboldit-webfont-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/minionpro\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/easytabs.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/fonts\/minionpro\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/minionpro\/specimen_files\/minionpro-it-webfont-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95609,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/minionpro-it-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/minionpro-it-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/minionpro\/specimen_files\/minionpro-regular-webfont-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88671,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/minionpro-regular-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/minionpro-regular-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/minionpro\/specimen_files\/minionpro-semibold-webfont-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87982,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/minionpro-semibold-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/minionpro-semibold-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/minionpro\/specimen_files\/minionpro-semiboldit-webfont-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96011,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/minionpro-semiboldit-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/minionpro-semiboldit-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/minionpro\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/minionpro\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/minionpro\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/proximanova\/proximanova-regitalic-webfont-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/proximanova-regitalic-webfont-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/proximanova\/proximanova-regular-webfont-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/proximanova-regular-webfont-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/proximanova\/proximanova-semibold-webfont-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/proximanova-semibold-webfont-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/proximanova\/proximanova-semibolditalic-webfont-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/proximanova-semibolditalic-webfont-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/proximanova\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/easytabs.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/fonts\/proximanova\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/proximanova\/specimen_files\/proximanova-regitalic-webfont-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86223,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/proximanova-regitalic-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/proximanova-regitalic-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/proximanova\/specimen_files\/proximanova-regular-webfont-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82273,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/proximanova-regular-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/proximanova-regular-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/proximanova\/specimen_files\/proximanova-semibold-webfont-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82420,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/proximanova-semibold-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/proximanova-semibold-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/proximanova\/specimen_files\/proximanova-semibolditalic-webfont-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86028,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/proximanova-semibolditalic-webfont-cleartype.png",
+		"outputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/proximanova-semibolditalic-webfont-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/fonts\/proximanova\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/proximanova\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/proximanova\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/back-300x300.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 58490,
-		"inputAbbreviatedPath": "\/images\/back-300x300.png",
-		"outputAbbreviatedPath": "\/images\/back-300x300.png",
+		"inputAbbreviatedPath": "\/img\/back-300x300.png",
+		"outputAbbreviatedPath": "\/img\/back-300x300.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/behance.png": {
+	"\/img\/behance.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5646,
-		"inputAbbreviatedPath": "\/images\/behance.png",
-		"outputAbbreviatedPath": "\/images\/behance.png",
+		"inputAbbreviatedPath": "\/img\/behance.png",
+		"outputAbbreviatedPath": "\/img\/behance.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/delicious.png": {
+	"\/img\/delicious.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5492,
-		"inputAbbreviatedPath": "\/images\/delicious.png",
-		"outputAbbreviatedPath": "\/images\/delicious.png",
+		"inputAbbreviatedPath": "\/img\/delicious.png",
+		"outputAbbreviatedPath": "\/img\/delicious.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/email.png": {
+	"\/img\/email.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3335,
-		"inputAbbreviatedPath": "\/images\/email.png",
-		"outputAbbreviatedPath": "\/images\/email.png",
+		"inputAbbreviatedPath": "\/img\/email.png",
+		"outputAbbreviatedPath": "\/img\/email.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/facebook.png": {
+	"\/img\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4535,
-		"inputAbbreviatedPath": "\/images\/facebook.png",
-		"outputAbbreviatedPath": "\/images\/facebook.png",
+		"inputAbbreviatedPath": "\/img\/facebook.png",
+		"outputAbbreviatedPath": "\/img\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/foursquare.png": {
+	"\/img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55233,
+		"inputAbbreviatedPath": "\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/foursquare.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6201,
-		"inputAbbreviatedPath": "\/images\/foursquare.png",
-		"outputAbbreviatedPath": "\/images\/foursquare.png",
+		"inputAbbreviatedPath": "\/img\/foursquare.png",
+		"outputAbbreviatedPath": "\/img\/foursquare.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/getglue.png": {
+	"\/img\/getglue.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4950,
-		"inputAbbreviatedPath": "\/images\/getglue.png",
-		"outputAbbreviatedPath": "\/images\/getglue.png",
+		"inputAbbreviatedPath": "\/img\/getglue.png",
+		"outputAbbreviatedPath": "\/img\/getglue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/github.png": {
+	"\/img\/github.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 14291,
-		"inputAbbreviatedPath": "\/images\/github.png",
-		"outputAbbreviatedPath": "\/images\/github.png",
+		"inputAbbreviatedPath": "\/img\/github.png",
+		"outputAbbreviatedPath": "\/img\/github.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/googleplus.png": {
+	"\/img\/googleplus.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6369,
-		"inputAbbreviatedPath": "\/images\/googleplus.png",
-		"outputAbbreviatedPath": "\/images\/googleplus.png",
+		"inputAbbreviatedPath": "\/img\/googleplus.png",
+		"outputAbbreviatedPath": "\/img\/googleplus.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/icons.png": {
+	"\/img\/icons.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4937,
-		"inputAbbreviatedPath": "\/images\/icons.png",
-		"outputAbbreviatedPath": "\/images\/icons.png",
+		"inputAbbreviatedPath": "\/img\/icons.png",
+		"outputAbbreviatedPath": "\/img\/icons.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/instagram.png": {
+	"\/img\/instagram.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6705,
-		"inputAbbreviatedPath": "\/images\/instagram.png",
-		"outputAbbreviatedPath": "\/images\/instagram.png",
+		"inputAbbreviatedPath": "\/img\/instagram.png",
+		"outputAbbreviatedPath": "\/img\/instagram.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/jeera.png": {
+	"\/img\/iphone-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17782,
+		"inputAbbreviatedPath": "\/img\/iphone-touch-icon.png",
+		"outputAbbreviatedPath": "\/img\/iphone-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jeera.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4540,
-		"inputAbbreviatedPath": "\/images\/jeera.png",
-		"outputAbbreviatedPath": "\/images\/jeera.png",
+		"inputAbbreviatedPath": "\/img\/jeera.png",
+		"outputAbbreviatedPath": "\/img\/jeera.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/lastfm.png": {
+	"\/img\/lastfm.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5086,
-		"inputAbbreviatedPath": "\/images\/lastfm.png",
-		"outputAbbreviatedPath": "\/images\/lastfm.png",
+		"inputAbbreviatedPath": "\/img\/lastfm.png",
+		"outputAbbreviatedPath": "\/img\/lastfm.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/letterboxd.png": {
+	"\/img\/letterboxd.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5079,
-		"inputAbbreviatedPath": "\/images\/letterboxd.png",
-		"outputAbbreviatedPath": "\/images\/letterboxd.png",
+		"inputAbbreviatedPath": "\/img\/letterboxd.png",
+		"outputAbbreviatedPath": "\/img\/letterboxd.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/linkedin.png": {
+	"\/img\/linkedin.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5475,
-		"inputAbbreviatedPath": "\/images\/linkedin.png",
-		"outputAbbreviatedPath": "\/images\/linkedin.png",
+		"inputAbbreviatedPath": "\/img\/linkedin.png",
+		"outputAbbreviatedPath": "\/img\/linkedin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/me-200x200.png": {
+	"\/img\/me-200x200.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 31378,
-		"inputAbbreviatedPath": "\/images\/me-200x200.png",
-		"outputAbbreviatedPath": "\/images\/me-200x200.png",
+		"inputAbbreviatedPath": "\/img\/me-200x200.png",
+		"outputAbbreviatedPath": "\/img\/me-200x200.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/me-300x300.png": {
+	"\/img\/me-300x300.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 59535,
-		"inputAbbreviatedPath": "\/images\/me-300x300.png",
-		"outputAbbreviatedPath": "\/images\/me-300x300.png",
+		"inputAbbreviatedPath": "\/img\/me-300x300.png",
+		"outputAbbreviatedPath": "\/img\/me-300x300.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/me-500x500.png": {
+	"\/img\/me-500x500.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 110084,
-		"inputAbbreviatedPath": "\/images\/me-500x500.png",
-		"outputAbbreviatedPath": "\/images\/me-500x500.png",
+		"inputAbbreviatedPath": "\/img\/me-500x500.png",
+		"outputAbbreviatedPath": "\/img\/me-500x500.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/peikko.png": {
+	"\/img\/peikko.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6213,
-		"inputAbbreviatedPath": "\/images\/peikko.png",
-		"outputAbbreviatedPath": "\/images\/peikko.png",
+		"inputAbbreviatedPath": "\/img\/peikko.png",
+		"outputAbbreviatedPath": "\/img\/peikko.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/photo.jpg": {
+	"\/img\/photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 17676,
-		"inputAbbreviatedPath": "\/images\/photo.jpg",
-		"outputAbbreviatedPath": "\/images\/photo.jpg",
+		"inputAbbreviatedPath": "\/img\/photo.jpg",
+		"outputAbbreviatedPath": "\/img\/photo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/problemsolvin.png": {
+	"\/img\/problemsolvin.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5648,
-		"inputAbbreviatedPath": "\/images\/problemsolvin.png",
-		"outputAbbreviatedPath": "\/images\/problemsolvin.png",
+		"inputAbbreviatedPath": "\/img\/problemsolvin.png",
+		"outputAbbreviatedPath": "\/img\/problemsolvin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/pulina.png": {
+	"\/img\/pulina.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5514,
-		"inputAbbreviatedPath": "\/images\/pulina.png",
-		"outputAbbreviatedPath": "\/images\/pulina.png",
+		"inputAbbreviatedPath": "\/img\/pulina.png",
+		"outputAbbreviatedPath": "\/img\/pulina.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/rollemaa.png": {
+	"\/img\/rolle-128x128.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36166,
+		"inputAbbreviatedPath": "\/img\/rolle-128x128.png",
+		"outputAbbreviatedPath": "\/img\/rolle-128x128.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rollemaa.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5617,
-		"inputAbbreviatedPath": "\/images\/rollemaa.png",
-		"outputAbbreviatedPath": "\/images\/rollemaa.png",
+		"inputAbbreviatedPath": "\/img\/rollemaa.png",
+		"outputAbbreviatedPath": "\/img\/rollemaa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/sepe.png": {
+	"\/img\/sepe.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7334,
-		"inputAbbreviatedPath": "\/images\/sepe.png",
-		"outputAbbreviatedPath": "\/images\/sepe.png",
+		"inputAbbreviatedPath": "\/img\/sepe.png",
+		"outputAbbreviatedPath": "\/img\/sepe.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/twitter.png": {
+	"\/img\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5273,
-		"inputAbbreviatedPath": "\/images\/twitter.png",
-		"outputAbbreviatedPath": "\/images\/twitter.png",
+		"inputAbbreviatedPath": "\/img\/twitter.png",
+		"outputAbbreviatedPath": "\/img\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/untappd.png": {
+	"\/img\/untappd.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 19768,
-		"inputAbbreviatedPath": "\/images\/untappd.png",
-		"outputAbbreviatedPath": "\/images\/untappd.png",
+		"inputAbbreviatedPath": "\/img\/untappd.png",
+		"outputAbbreviatedPath": "\/img\/untappd.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/youtube.png": {
+	"\/img\/youtube.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5205,
-		"inputAbbreviatedPath": "\/images\/youtube.png",
-		"outputAbbreviatedPath": "\/images\/youtube.png",
+		"inputAbbreviatedPath": "\/img\/youtube.png",
+		"outputAbbreviatedPath": "\/img\/youtube.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/includes\/aboutPage.class.php": {
+	"\/inc\/aboutPage.class.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/includes\/aboutPage.class.php",
+		"inputAbbreviatedPath": "\/inc\/aboutPage.class.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/includes\/config.php": {
+	"\/inc\/config.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/includes\/config.php",
+		"inputAbbreviatedPath": "\/inc\/config.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/includes\/vcard.class.php": {
+	"\/inc\/vcard.class.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/includes\/vcard.class.php",
+		"inputAbbreviatedPath": "\/inc\/vcard.class.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1029,26 +755,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/index_en.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index_en.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/iphone-touch-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17782,
-		"inputAbbreviatedPath": "\/iphone-touch-icon.png",
-		"outputAbbreviatedPath": "\/iphone-touch-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/js\/fancybox\/fancybox_overlay.png": {
 		"fileType": 32768,
@@ -1176,24 +882,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/style.scss": {
+	"\/sass\/_bordered-pulled.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/style.scss",
-		"outputAbbreviatedPath": "\/style.css",
+		"inputAbbreviatedPath": "\/sass\/_bordered-pulled.scss",
+		"outputAbbreviatedPath": "\/css\/_bordered-pulled.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -1201,339 +898,325 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/webfonts\/gotham\/gotham-bold-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
+	"\/sass\/_core.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/gotham-bold-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/gotham\/gotham-light-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/gotham-light-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/gotham\/gotham-medium-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/gotham-medium-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/gotham\/specimen_files\/easytabs.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/easytabs.js",
-		"outputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/easytabs.min.js",
+		"inputAbbreviatedPath": "\/sass\/_core.scss",
+		"outputAbbreviatedPath": "\/css\/_core.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/gotham\/specimen_files\/gotham-bold-webfont-cleartype.png": {
-		"fileType": 32768,
-		"ignore": 0,
+	"\/sass\/_fixed-width.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 82514,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/gotham-bold-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/gotham-bold-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/_fixed-width.scss",
+		"outputAbbreviatedPath": "\/css\/_fixed-width.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/gotham\/specimen_files\/gotham-light-webfont-cleartype.png": {
-		"fileType": 32768,
-		"ignore": 0,
+	"\/sass\/_icons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 81182,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/gotham-light-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/gotham-light-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/_icons.scss",
+		"outputAbbreviatedPath": "\/css\/_icons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/gotham\/specimen_files\/gotham-medium-webfont-cleartype.png": {
-		"fileType": 32768,
-		"ignore": 0,
+	"\/sass\/_larger.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 83102,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/gotham-medium-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/gotham-medium-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/_larger.scss",
+		"outputAbbreviatedPath": "\/css\/_larger.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/gotham\/specimen_files\/grid_12-825-55-15.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/sass\/_list.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/grid_12-825-55-15.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/gotham\/specimen_files\/specimen_stylesheet.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/specimen_files\/specimen_stylesheet.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/gotham\/stylesheet.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/gotham\/stylesheet.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/minionpro\/minionpro-it-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/minionpro-it-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/minionpro\/minionpro-regular-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/minionpro-regular-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/minionpro\/minionpro-semibold-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/minionpro-semibold-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/minionpro\/minionpro-semiboldit-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/minionpro-semiboldit-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/minionpro\/specimen_files\/easytabs.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/easytabs.js",
-		"outputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/easytabs.min.js",
+		"inputAbbreviatedPath": "\/sass\/_list.scss",
+		"outputAbbreviatedPath": "\/css\/_list.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/minionpro\/specimen_files\/grid_12-825-55-15.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/sass\/_mixins.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/grid_12-825-55-15.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/minionpro\/specimen_files\/minionpro-it-webfont-cleartype.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 95609,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/minionpro-it-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/minionpro-it-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/_mixins.scss",
+		"outputAbbreviatedPath": "\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/minionpro\/specimen_files\/minionpro-regular-webfont-cleartype.png": {
-		"fileType": 32768,
-		"ignore": 0,
+	"\/sass\/_path.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 88671,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/minionpro-regular-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/minionpro-regular-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/_path.scss",
+		"outputAbbreviatedPath": "\/css\/_path.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/minionpro\/specimen_files\/minionpro-semibold-webfont-cleartype.png": {
-		"fileType": 32768,
-		"ignore": 0,
+	"\/sass\/_rotated-flipped.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 87982,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/minionpro-semibold-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/minionpro-semibold-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/_rotated-flipped.scss",
+		"outputAbbreviatedPath": "\/css\/_rotated-flipped.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/minionpro\/specimen_files\/minionpro-semiboldit-webfont-cleartype.png": {
-		"fileType": 32768,
-		"ignore": 0,
+	"\/sass\/_spinning.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 96011,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/minionpro-semiboldit-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/minionpro-semiboldit-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/_spinning.scss",
+		"outputAbbreviatedPath": "\/css\/_spinning.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/minionpro\/specimen_files\/specimen_stylesheet.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/sass\/_stacked.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/specimen_files\/specimen_stylesheet.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/minionpro\/stylesheet.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/minionpro\/stylesheet.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/proximanova\/proximanova-regitalic-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/proximanova-regitalic-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/proximanova\/proximanova-regular-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/proximanova-regular-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/proximanova\/proximanova-semibold-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/proximanova-semibold-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/proximanova\/proximanova-semibolditalic-webfont-demo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/proximanova-semibolditalic-webfont-demo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/proximanova\/specimen_files\/easytabs.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/easytabs.js",
-		"outputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/easytabs.min.js",
+		"inputAbbreviatedPath": "\/sass\/_stacked.scss",
+		"outputAbbreviatedPath": "\/css\/_stacked.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/proximanova\/specimen_files\/grid_12-825-55-15.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/sass\/_variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/grid_12-825-55-15.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/webfonts\/proximanova\/specimen_files\/proximanova-regitalic-webfont-cleartype.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 86223,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/proximanova-regitalic-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/proximanova-regitalic-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/_variables.scss",
+		"outputAbbreviatedPath": "\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/proximanova\/specimen_files\/proximanova-regular-webfont-cleartype.png": {
-		"fileType": 32768,
+	"\/sass\/font-awesome.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 82273,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/proximanova-regular-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/proximanova-regular-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/font-awesome.scss",
+		"outputAbbreviatedPath": "\/css\/font-awesome.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/proximanova\/specimen_files\/proximanova-semibold-webfont-cleartype.png": {
-		"fileType": 32768,
+	"\/sass\/ie.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 82420,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/proximanova-semibold-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/proximanova-semibold-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/ie.scss",
+		"outputAbbreviatedPath": "\/css\/ie.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/proximanova\/specimen_files\/proximanova-semibolditalic-webfont-cleartype.png": {
-		"fileType": 32768,
-		"ignore": 0,
+	"\/sass\/jeet\/_functions.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 86028,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/proximanova-semibolditalic-webfont-cleartype.png",
-		"outputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/proximanova-semibolditalic-webfont-cleartype.png",
+		"inputAbbreviatedPath": "\/sass\/jeet\/_functions.scss",
+		"outputAbbreviatedPath": "\/css\/_functions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/proximanova\/specimen_files\/specimen_stylesheet.css": {
-		"fileType": 16,
+	"\/sass\/jeet\/_grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/jeet\/_grid.scss",
+		"outputAbbreviatedPath": "\/css\/_grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/jeet\/_settings.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/jeet\/_settings.scss",
+		"outputAbbreviatedPath": "\/css\/_settings.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/jeet\/index.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/jeet\/index.scss",
+		"outputAbbreviatedPath": "\/css\/index.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/layout.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/specimen_files\/specimen_stylesheet.css",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/sass\/layout.scss",
+		"outputAbbreviatedPath": "\/sass\/layout.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/webfonts\/proximanova\/stylesheet.css": {
-		"fileType": 16,
+	"\/sass\/print.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/webfonts\/proximanova\/stylesheet.css",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/sass\/print.scss",
+		"outputAbbreviatedPath": "\/css\/print.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/screen.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/screen.scss",
+		"outputAbbreviatedPath": "\/css\/screen.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		}
 	},
 "hooks": [
@@ -1543,9 +1226,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "ronilaukkarineninfo",
+	"displayValue": "rolleio",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray"
+	"iconImageName": "pencil_blue"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
@@ -1660,7 +1343,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/ronilaukkarinen.dev",
+	"externalServerAddress": "http:\/\/rolleio.dev",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathRelativePath": "",
