@@ -5,9 +5,18 @@
 @import '../fonts/gotham/stylesheet.css';
 @import 'font-awesome';
 @import 'jquery.smallipop';
- 
+@import 'hover';
+
 $baseFontSize: 10; // Based on HTML reset html { font-size: 62.5%; }
  
+@mixin vendorize($property, $value) {
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+	#{$property}: $value;
+}
+
 @function parseInt($n) {
   @return $n / ($n * 0 + 1);
 }
@@ -67,6 +76,30 @@ $baseFontSize: 10; // Based on HTML reset html { font-size: 62.5%; }
 	@return $return;
 }
 
+$fonttikoko: 22px;
+
+@mixin perusfonttikoko() {
+	@include rem(font-size,$fonttikoko);
+	@include rem(line-height,($fonttikoko+7));
+}
+
+@mixin perusotsikkokoko() {
+	@include rem(font-size,26px);
+}
+
+@mixin teksti() {
+	font-family:"minion_proregular";
+}
+
+@mixin otsikko() {
+	font-family:'gothambold', Helvetica, Arial;
+	font-weight: normal;
+	letter-spacing: -1px;
+	@include rem(margin,15px 0);
+	color:#222;
+	padding:0;
+}
+
 html {
     font-size: 62.5%; /* Our default font is now 10px, which makes math easier. Now, 1.0rem = 10px. This becomes our $rembase. */
 }
@@ -86,32 +119,18 @@ body {
 }
 
 #wrapper .section h1 {
-	font-family:'gothambold', Helvetica, Arial;
-	font-size:18px;
-	@include rem(font-size,18px);
-	font-weight: normal;
-	letter-spacing: -1px;
-	margin:15px 0;
-	@include rem(margin,15px 0);
-	color:#222;
-	padding:0;	
+	@include otsikko;
+	@include perusotsikkokoko;
 }
 
 #wrapper .section p {
-	font-size:17px;
-	@include rem(font-size,17px);
+	@include teksti;
+	@include perusfonttikoko;
 }
 
-$font-size: 20px;
-$line-height: 32px;
-$line-height-titles: 55px;
-$margin-bottom-titles: 12px;
-
 body, p {
-	font-size: $font-size;
-	@include rem(font-size, $font-size);
-	line-height: $line-height;
-	@include rem(line-height, $line-height);
+	@include teksti;
+	@include perusfonttikoko;
 }
 
 
@@ -131,8 +150,8 @@ a, a:link, a:visited {
 
 .section h2 {
 	color:#343434;
-	font-size:16px;
-	@include rem(font-size,17px);
+	@include teksti;
+	@include perusfonttikoko;
 	font-family:"minion_proregular";
 	font-weight:600;
 	border:0;
@@ -160,24 +179,6 @@ a:hover {
 	text-align:center;
 }
 
-#header h1 {
-	font-family:'gothambold', Helvetica, Arial;
-	font-size:3.7em;
-	font-weight: normal;
-	letter-spacing: -1px;
-	margin:0 0 20px 0;
-	color:#222;
-	text-shadow:2px 2px 1px #aaa;
-	padding:0;
-}
-
-#header h1 span {
-	font-size:0.3em;
-	color:#aaa;
-	display:block;
-	text-shadow:none;
-}
-
 #wrapper {
 	position:relative;
 	max-width:940px;
@@ -187,75 +188,21 @@ a:hover {
 }
 
 #wrapper p {
-	font-family:'minion_proregular', Helvetica, Arial;
-	line-height:1.3em;
-	font-size:1.4em;
+	@include teksti;
+	@include perusfonttikoko;
 	font-weight: lighter;
 	word-spacing: 1px;
 	text-shadow:1px 1px 1px #fff;
 	text-align:center;
 }
 
-.back {
-  	background:url(images/back-300x300.png) no-repeat;
-}
-
-.back strong a {
-	color:#ffffff;
-}
-
-#wrapper .back p {
-	position:absolute;
-	bottom:50px;
-	left:95px;
-	font-size:0.9em;
-	color:#ffffff;
-	text-shadow:1px 1px 1px #000;
-	font-family:'proxima_novaregular',sans-serif;
-}
-
-#wrapper p#identity {
-	margin:0;
-	padding:0;
-	text-align:center;
-}
-
-.area {
-	background:url(images/sepe.png) bottom no-repeat;
-	text-align:center;
-	padding:0 0 50px 0;
-	margin:0;
-}
-
-.area p {
-	color:#222;
-}
-
-.fancybox-overlay a {
-	border:0;
-}
-
-.fancybox-skin {
-	padding:0 !important;
-	background:none transparent !important;
-	-webkit-box-shadow:none !important;
-	-moz-box-shadow:none !important;
-	box-shadow:none !important;
-}
-
-.details {
-	border-bottom:1px solid #ccc;
-	text-align:center;
-	padding:10px 0;
-}
-
 .details li {
 	display:inline;
-	@include rem(padding,0 2px);
+	@include rem(padding,10px);
 }
 
-.details li span.fa {
-	@include rem(font-size,21px);
+.details li .fa {
+	@include rem(font-size,28px);
 }
 
 .details p {
@@ -264,229 +211,81 @@ a:hover {
 	margin:30px 0;
 }
 
-ul, li {
-	margin:0;
-	padding:0;
-	list-style:none;
-	list-style-type:none;
-}
+// HOVERS
 
-#profession p {
-	margin:0 0 20px 0;
-	padding:0;
-}
+.smallipop-content {
 
-#profession ul {
-	max-width:550px;
-	width:100%;
-}
-
-.details ul {
-	margin:0 auto 10px auto;
-	overflow:auto;
-	clear:both;
-	text-align:center;
-}
-
-.details ul li {
-	overflow:auto;
-	float:left;
-}
-
-.details ul li a {
-	width:170px;
-	height:72px;
-}
-
-.details ul li a {
-	overflow:hidden;
-	text-indent:-9999px;
-	display:block;
- 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-    filter: alpha(opacity=40);
-    -moz-opacity: 0.4;
-    -khtml-opacity: 0.4;
-    opacity: 0.4;
-    border:0;
-}
-
-.details ul li a:hover {
- 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-    filter: alpha(opacity=80);
-    -moz-opacity: 0.8;
-    -khtml-opacity: 0.8;
-    opacity: 0.8;
-}
-
-#websites p {
-	margin:20px 0;
-	padding:0;
-}
-
-#socialmedia ul {
-	max-width:740px;
-	width:100%;
-}
-
-#websites ul {
-	max-width:550px;
-	width:100%;
-}
-
-.details ul li {
-	margin:0 20px 0 0;
-}
-
-.details ul li.last {
-	margin:0;
-}
-
-#profession ul li.resume a { background:url(images/linkedin.png) no-repeat; }
-#profession ul li.portfolio a {	background:url(images/behance.png) no-repeat 1px 0; }
-#profession ul li.github a {	background:url(images/github.png) no-repeat; }
-#websites ul li.rollemaa a { background:url(images/rollemaa.png) no-repeat; }
-#websites ul li.problemsolvin a { background:url(images/problemsolvin.png) no-repeat; }
-#websites ul li.pulina a { background:url(images/pulina.png) no-repeat; } 
-#websites ul li.peikko a { background:url(images/peikko.png) no-repeat; }
-#websites ul li.jeera a { background:url(images/jeera.png) no-repeat; }
-#socialmedia ul li.facebook a { background:url(images/facebook.png) no-repeat; }
-#socialmedia ul li.twitter a { background:url(images/twitter.png) no-repeat; }
-#socialmedia ul li.googleplus a { background:url(images/googleplus.png) no-repeat; }
-#socialmedia ul li.youtube a { background:url(images/youtube.png) no-repeat; }
-#socialmedia ul li.lastfm a { background:url(images/lastfm.png) no-repeat; }
-#socialmedia ul li.foursquare a { background:url(images/foursquare.png) no-repeat; }
-#socialmedia ul li.instagram a { background:url(images/instagram.png) no-repeat; }
-#socialmedia ul li.delicious a { background:url(images/delicious.png) no-repeat; }
-#socialmedia ul li.letterboxd a { background:url(images/letterboxd.png) no-repeat; }
-#socialmedia ul li.getglue a { background:url(images/getglue.png) no-repeat; }
-#socialmedia ul li.untappd a { background:url(images/untappd.png) no-repeat; }
-
-#footer p.reclamation {
-	font-size:1.1em;
-	color:#777;
-}
-
-#profession h2 {
-	display:none;
-}
-
-.details h2 {
-	display:none;
-}
-
-.details h2 a {
-	color:#555;
-	font-size:1.5em;
-	font-family:"minion_proregular";
-	font-weight:400;
-	border:0;
-	text-shadow:1px 1px 1px #fff;
-}
-
-#whois p.email {
-	width:240px;
-	margin:0 auto;
-	position:relative;
-	background:url(images/email.png) no-repeat 0 0;
-	padding:0 0 0 24px;
-	color:#666666;
-}
-
-
-@media (max-width:1024px) {
-
-	body {
-		width:80%;
-		margin:0 auto;
-	}
-
-
-}
-
-@media (max-width:768px) {
-
-	body {
-		width:60%;
-		margin:0 auto;
-	}
-
-}
-
-@media (max-width:930px) {
-
-	#socialmedia ul, #profession ul, #websites ul {
-		width:380px;
-	}
-
-	.details ul li.second {
+	h2 {
+		@include otsikko;
+		@include rem(font-size,18px);
 		margin:0;
+		padding:0;
+		color:#ffffff;
 	}
 
+	p {
+	
+		@include teksti;
+		@include perusfonttikoko;
+
+		font-weight:normal;
+		margin:0;
+		padding:0;
+
+		a, a:link, a:visited, a:active {
+			text-decoration:none !important;
+			border:0;
+		}
+	}
 }
 
-@media (max-width:670px) {
-
-	#socialmedia ul, #profession ul, #websites ul {
-		width:170px;
-	}
-
+.details {
+	margin:0;
+	padding:0;
 }
 
-@media (max-width:500px) {
-
-	#header h1 {
-		font-size:2.5em;
-		margin:10px 0 30px 0;
-	}
-
-	#wrapper p {
-		font-size:1.3em;
-	}
-
-	#whois a {
-		display:block;
-		margin:20px 0;
-		border:0;
-	}
-
-	div.back {
-		display:none;
-	}
-
-	.forenglish {
-		top:auto;
-		bottom:0;
-		width:87%;
-		position:fixed;
-		margin:10px 0 10px 0;
-	}
-	.onlineblock {
-		display:none;
-	}
-
-	.flipcard .front, .flipcard .back, .flipcard, .flipcard:hover, .flipcard .front:hover, .flipcard .back:hover {
-		position:relative;
-		transform:none;
-		transition:none;
-		width:auto;
-		height:auto;
-	}
-
-	.flipcard img {
-		width:100%;
-		height:auto;
-	}
-
-
-
+.flag:hover {
+	color:#4E98D0;
+	@extend .skew;
+}
+.beer:hover {
+	color:#deb719;
+	@extend .hover;
+}
+.heart:hover {
+	color:red;
+	@extend .pulse;
+}
+.music:hover {
+	color:#40d631;
+	@extend .wobble-vertical;
+}
+.film:hover {
+	color:#d65f31;
+	@extend .wobble-horizontal;
+}
+.linux:hover {
+	color:#a68010;
+	@extend .grow-rotate;
+}
+.briefcase:hover {
+	color:grey;
+	@extend .buzz;
+}
+.book:hover {
+	color:purple;
+	@extend .push;
 }
 
-@media (min-width:480px) {
+.hoverme {
+	cursor:pointer;
+}
 
-	.front, .back {
-		position: absolute;
-  		top: 0;
-  		left: 0;
+#footer {
+
+	p {
+		@include teksti;
+		@include rem(font-size,15px);
+		color:#888888;
 	}
-
 }
