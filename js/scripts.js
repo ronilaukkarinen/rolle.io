@@ -7,14 +7,6 @@ $('.hoverme').smallipop({
       var count = 0,
       list = [
         {
-          service: 'bitly',
-          user: 'rollemaa'
-        },
-        // {
-        //   service: 'blogger',
-        //   user: '02638703378127213381'
-        // },
-        {
           service: 'delicious',
           user: 'rollex'
         },
@@ -22,27 +14,29 @@ $('.hoverme').smallipop({
           service: 'deviantart',
           user: 'rolleq'
         },
-        // {
-        //   service: 'disqus',
-        //   user: 'ronilaukkarinen'
-        // },
         {
           service: 'dribbble',
           user: 'rolle'
         },
-        // {
-        //   service: 'facebook_page',
-        //   user: 'digitoimistodude'
-        // },
-        // find your flickr id @
-        // http://www.flickr.com/services/api/explore/?method=flickr.people.findByUsername
-        // {
-        //   service: 'flickr',
-        //   user: '11506579@N04'
-        // },
         {
-          service: 'formspring',
-          user: 'rollex2'
+          service: 'facebook_page',
+          user: '569702083062696'
+        },
+        {
+          service: 'facebook_page',
+          user: '569702083062696'
+        },
+        {
+          service: 'facebook_page',
+          user: '115627098466807'
+        },
+        {
+          service: 'facebook_page',
+          user: '128416057191530'
+        },
+        {
+          service: 'facebook_page',
+          user: '540347485'
         },
         {
           service: 'pocket',
@@ -56,13 +50,6 @@ $('.hoverme').smallipop({
           service: 'bitbucket',
           user: 'ronilaukkarinen'
         },
-        // // Change the key when you're using it on your own website
-        // // You can create one on https://code.google.com/apis/console
-        // {
-        //   service: 'googleplus',
-        //   user: '116255313263451216782',
-        //   key: 'AIzaSyDv7bS89kbCUCukBcMi5-1z595MdI_2jjA'
-        // },
         {
           service: 'lastfm',
           user: 'rolle-'
@@ -119,6 +106,10 @@ $('.hoverme').smallipop({
           service: 'rss',
           user: 'http://www.dude.fi/blogi/feed/'
         },
+        {
+          service: 'rss',
+          user: 'http://letterboxd.com/rolle/rss/'
+        }
       ];
 
       Date.prototype.toISO8601 = function(date) {

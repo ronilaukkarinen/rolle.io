@@ -197,10 +197,11 @@ a:hover {
 
 #wrapper {
 	position:relative;
-	max-width:940px;
+	max-width:700px;
 	width:100%;
-	margin:30px auto;
+	@include rem(margin,30px auto);
 	color:#222;
+	@include rem(padding,30px);
 }
 
 #wrapper p {
@@ -213,7 +214,7 @@ a:hover {
 }
 
 .details {
-	margin:0;
+	@include rem(margin,23px 0);
 	@include rem(padding,10px);
 }
 
@@ -315,6 +316,12 @@ a:hover {
 	}
 }
 
+.lifestream-section {
+	margin:0 auto;
+	max-width:440px;
+	width:100%;
+}
+
 #lifestream {
 	text-align:left;
 	margin:0 auto;
@@ -322,12 +329,14 @@ a:hover {
 	ul {
 		@include rem(padding,10px);
 		text-align:left;
+
 		li {
 			@include rem(padding,5px 3px 5px 25px);
 			background-repeat:no-repeat;
-			background-position:left center;
+			background-position:0 10px;
 			list-style:none;
 			@include rem(font-size,14px);
+			@include rem(margin,4px 0);
 		}
 	}
 

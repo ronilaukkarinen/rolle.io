@@ -53,7 +53,7 @@ html(lang=en)
 						li.heart.hoverme
 							span.fa.fa-heart
 							span.smallipop-hint				
-								h2 I <span class="heart">&heart;</span> my family
+								h2 Family man
 									p My family is really important to me. I have one daughter and a son. Married to a deafblind person (Usher's syndrome).
 
 						li.briefcase.hoverme
@@ -67,16 +67,18 @@ html(lang=en)
 								h2 Blogger
 									p I have 7 blogs in total. Only blog in English is currently <a href="http://problemsolv.in">Problemsolv.in</a>. Considering blogging here at rolle.io about web design.
 
-				section.section.smallsection
+				section.section.lifestream-section
 					ul#lifestream
 
 			footer#footer 
 				p This page is hand crafted using Jade, SASS and jQuery.
 
-script(src="/js/jquery-1.9.0.min.js")
-script(src="/js/jquery.timeago.min.js")
-script(src="/js/jquery.smallipop.min.js")
+script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js")
+script.
+	!window.jQuery && document.write('<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"><\/script>');
 script(src="/js/jquery.lifestream.custom.min.js")
+script(src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.1.0/jquery.timeago.min.js")
+script(src="/js/jquery.smallipop.min.js")
 script(src="/js/scripts.min.js")
 
 <!--[if lt IE 9]>
@@ -84,15 +86,10 @@ script(src="/js/scripts.min.js")
 <![endif]-->
 
 script.
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-38578551-1']);
-	_gaq.push(['_setDomainName', 'laukkarinen.info']);
-	_gaq.push(['_trackPageview']);
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	(function() {
-	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	})();
-
-script(src="https://www.google.com/jsapi")
+	ga('create', 'UA-50914309-1', 'rolle.io');
+	ga('send', 'pageview');
