@@ -338,10 +338,8 @@ a:hover {
 #lifestream {
 	text-align:left;
 	margin:0 auto;
-
-	ul {
-		@include rem(padding,10px);
-		text-align:left;
+	padding:0;
+	@include rem(padding,10px);
 
 		li {
 			@include rem(padding,5px 3px 5px 25px);
@@ -351,7 +349,6 @@ a:hover {
 			@include rem(font-size,14px);
 			@include rem(margin,4px 0);
 		}
-	}
 
 	.timeago {
 		@include opacity(0.5);
