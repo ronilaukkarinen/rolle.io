@@ -1,5 +1,10 @@
 @import 'jeet/index';
 @import 'compass';
+@import '../fonts/proximanova/stylesheet.css';
+@import '../fonts/minionpro/stylesheet.css';
+@import '../fonts/gotham/stylesheet.css';
+@import 'font-awesome';
+@import 'jquery.smallipop';
  
 $baseFontSize: 10; // Based on HTML reset html { font-size: 62.5%; }
  
@@ -242,6 +247,15 @@ a:hover {
 	border-bottom:1px solid #ccc;
 	text-align:center;
 	padding:10px 0;
+}
+
+.details li {
+	display:inline;
+	@include rem(padding,0 2px);
+}
+
+.details li span.fa {
+	@include rem(font-size,21px);
 }
 
 .details p {
