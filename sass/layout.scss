@@ -138,20 +138,54 @@ body {
 	text-align:center;
 }
 
-#wrapper .smallsection {
-	margin:0 auto;
-	max-width:400px;
+#wrapper {
+	max-width:700px;
 	width:100%;
+	@include rem(margin,30px auto);
+	color:#222;
+	@include rem(padding,0);
+
+	.smallsection {
+		margin:0 auto;
+		max-width:400px;
+		width:100%;
+	}
+
+	.section h1 {
+		@include erikoisotsikko;
+		@include rem(margin,20px 0);
+		@include rem(line-height,30px);
+	}
+
+	.section p {
+		@include teksti;
+		@include perusfonttikoko;
+	}
+
+	p {
+		@include teksti;
+		@include perusfonttikoko;
+		font-weight: lighter;
+		word-spacing: 1px;
+		text-shadow:1px 1px 1px #fff;
+		text-align:center;
+	}
+
 }
 
-#wrapper .section h1 {
-	@include erikoisotsikko;
-	@include rem(margin,20px 0);
+@media(max-width:770px) {
+
+	#wrapper {
+		max-width:500px;
+	}
 }
 
-#wrapper .section p {
-	@include teksti;
-	@include perusfonttikoko;
+@media(max-width:500px) {
+
+	#wrapper {
+		max-width:400px;
+	}
+
 }
 
 body, p {
@@ -192,24 +226,6 @@ a:hover {
 }
 
 #header {
-	text-align:center;
-}
-
-#wrapper {
-	position:relative;
-	max-width:700px;
-	width:100%;
-	@include rem(margin,30px auto);
-	color:#222;
-	@include rem(padding,30px);
-}
-
-#wrapper p {
-	@include teksti;
-	@include perusfonttikoko;
-	font-weight: lighter;
-	word-spacing: 1px;
-	text-shadow:1px 1px 1px #fff;
 	text-align:center;
 }
 

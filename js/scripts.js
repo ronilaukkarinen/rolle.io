@@ -1,7 +1,8 @@
 (function(){
 
 $('.hoverme').smallipop({
-	theme: 'black'
+	theme: 'black',
+  touchSupport: true
 });
 
       var count = 0,
@@ -62,10 +63,7 @@ $('.hoverme').smallipop({
           service: 'tumblr',
           user: 'rolle'
         },
-        {
-          service: 'twitter',
-          user: 'rolle'
-        },
+,
         {
           service: 'vimeo',
           user: 'rollex'
