@@ -377,12 +377,10 @@ a:hover {
 	}
 }
 
-@media(min-width:770px) {
 	.description {
 		max-width:380px;
 	}
-}
-
+	
 @media(max-width:600px) {
 	#wrapper {
 		width:80%;
