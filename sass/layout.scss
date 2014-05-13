@@ -277,11 +277,11 @@ a:hover {
 	@extend .hover;
 }
 .heart:hover {
-	color:red;
+	color:#c0392b;
 	@extend .pulse;
 }
 .music:hover {
-	color:#40d631;
+	color:#27ae60;
 	@extend .wobble-vertical;
 }
 .film:hover {
