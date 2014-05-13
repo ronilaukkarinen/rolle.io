@@ -293,20 +293,40 @@ a:hover {
 	@extend .grow-rotate;
 }
 .briefcase:hover {
-	color:grey;
+	color:#16a085;
 	@extend .buzz;
 }
 .book:hover {
-	color:purple;
+	color:#e67e22;
 	@extend .push;
 }
 .twitter:hover {
 	color:#55acee;
-	@extend .pop;
 }
 .instagram:hover {
 	color:#3f729b;
-	@extend .wobble-top;
+}
+.github:hover {
+	color:#4183c4;
+}
+.bitbucket:hover {
+	color:#205081;
+}
+.linkedin:hover {
+	color:#0976b4;
+}
+.dribbble:hover {
+	color:#ea4c89;
+}
+
+.footersome a {
+	border:0;
+	color:rgba(0,0,0,0.4);
+	@include rem(margin,0 2px 0 0);
+}
+
+.footersome a:hover {
+	@extend .wobble-vertical;
 }
 
 
