@@ -12,10 +12,6 @@ $('.hoverme').smallipop({
           user: 'rollex'
         },
         {
-          service: 'deviantart',
-          user: 'rolleq'
-        },
-        {
           service: 'dribbble',
           user: 'rolle'
         },
@@ -63,7 +59,6 @@ $('.hoverme').smallipop({
           service: 'tumblr',
           user: 'rolle'
         },
-,
         {
           service: 'vimeo',
           user: 'rollex'

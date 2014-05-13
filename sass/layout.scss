@@ -7,7 +7,6 @@
 @import 'jquery.smallipop';
 @import 'hover';
 @import 'lifestream';
-@import 'jeet/index';
 
 $baseFontSize: 10; // Based on HTML reset html { font-size: 62.5%; }
  
@@ -142,7 +141,6 @@ body {
 }
 
 #wrapper {
-	@include col(1/1);
 	overflow:hidden;
 	@include rem(margin,30px auto);
 	color:#222;
@@ -156,7 +154,7 @@ body {
 	.section h1 {
 		@include erikoisotsikko;
 		@include rem(margin,20px 0);
-		@include rem(line-height,30px);
+		@include rem(line-height,36px);
 	}
 
 	.section p {
@@ -362,5 +360,11 @@ a:hover {
 @media(min-width:770px) {
 	.description {
 		max-width:380px;
+	}
+}
+
+@media(max-width:600px) {
+	#wrapper {
+		width:80%;
 	}
 }
