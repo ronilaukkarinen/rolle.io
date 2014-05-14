@@ -2,6 +2,12 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    cssmin : {
+            css:{
+                src: 'style.css',
+                dest: 'style.min.css'
+            }
+        },
     concat: {
       options: {
         separator: ';'
@@ -38,8 +44,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
-
-  grunt.registerTask('test', ['uglify']);
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTask('default', ['uglify']);
 
