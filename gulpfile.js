@@ -61,7 +61,7 @@ gulp.task('scripts', function() {
     'js/jquery.lifestream.min.js',
     'js/jquery.timeago.min.js',
     'js/jquery.smallipop.min.js',
-    'js/scripts.min.js' 
+    'js/scripts.js' 
     ])
     //.pipe(jshint('.jshintrc'))
     //.pipe(jshint.reporter('default'))
