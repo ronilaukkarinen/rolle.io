@@ -7,10 +7,10 @@ $('.hoverme').smallipop({
 
       var count = 0,
       list = [
-        // {
-        //   service: 'delicious',
-        //   user: 'rollex'
-        // },
+        {
+          service: 'delicious',
+          user: 'rollex'
+        },
         {
           service: 'dribbble',
           user: 'rolle'
@@ -55,10 +55,10 @@ $('.hoverme').smallipop({
           service: 'linkedin',
           user: 'rolle'
         },
-        // {
-        //   service: 'tumblr',
-        //   user: 'rolle'
-        // },
+        {
+          service: 'tumblr',
+          user: 'rolle'
+        },
         {
           service: 'vimeo',
           user: 'rollex'
