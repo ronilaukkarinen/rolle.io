@@ -20,18 +20,6 @@ var gulp = require('gulp'),
     pkg = require('./package.json');
     banner = '/*! <%= pkg.name %> <%= currentDate %> - <%= pkg.author %> */\n';
 
-gulp.task('templates', function() {
-  gulp.src('./lib/*.jade')
-    .pipe(jade({
-      client: true
-    }))
-    .pipe(wrap({
-      deps: ['jade'],
-      params: ['jade']
-    }))
-    .pipe(gulp.dest('./dist/'))
-});
-
 // Compass without config.rb:
 
 gulp.task('compass', function() {
@@ -92,28 +80,28 @@ gulp.task('images', function() {
     .pipe(gulp.dest('img/optimized'));
     });
 
-// gulp.task('jade', function() {
-//   gulp.src('*.jade')
-//     .pipe(jade({
-//       pretty: false,
-//     }))
-//     .pipe(wrap({
-//       deps: ['jade'],
-//       params: ['jade']
-//     }))
-//     .pipe(gulp.dest('./'))
-//     .pipe(livereload())
-//     .pipe(notify({ message: 'Jade to HTML task complete' }));
-// });
+gulp.task('jade', function() {
+  gulp.src('*.jade')
+    .pipe(jade({
+      pretty: false,
+    }))
+    .pipe(wrap({
+      deps: ['jade'],
+      params: ['jade']
+    }))
+    .pipe(gulp.dest('./'))
+    .pipe(livereload())
+    .pipe(notify({ message: 'Jade to HTML task complete' }));
+});
 
 gulp.task('watch', function() {
 
   livereload.listen();
 
-  //gulp.watch('*.jade', ['jade']);
+  gulp.watch('*.jade', ['jade']);
   gulp.watch('sass/*.scss', ['compass']);
   gulp.watch('js/scripts.js', ['scripts']);
-  gulp.watch('content/themes/problemsolvin/images/*', ['images']);
+  gulp.watch('img/*', ['images']);
 
 });
 
