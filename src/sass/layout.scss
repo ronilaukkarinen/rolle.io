@@ -1,0 +1,94 @@
+@import "../../bower_components/font-awesome/scss/font-awesome";
+@import "../../bower_components/jeet/scss/jeet/index";
+@import "../../bower_components/normalize-scss/normalize";
+@import "fonts";
+@import "config";
+@import "main";
+@import "knife/index";
+@import "mixins";
+@import "hover";
+
+body
+{
+    color: $textcolor;
+    padding: 0;
+    margin: 0;
+}
+
+#footer {
+
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+
+    p {
+        color: #888888;
+        @include rem('font-size',15px);
+
+        &.love {
+            color: #333333;
+        }
+
+        &.author {
+            a {
+                color: #888888;
+            }
+        }
+    }
+
+}
+
+.twitter:hover {
+    color: #55acee;
+}
+.instagram:hover {
+    color: #3f729b;
+}
+.github:hover {
+    color: #4183c4;
+}
+.bitbucket:hover {
+    color: #205081;
+}
+.linkedin:hover {
+    color: #0976b4;
+}
+.dribbble:hover {
+    color: #ea4c89;
+}
+.facebook:hover {
+    color: #3b5998;
+}
+.untappd:hover {
+    color: #FFCC00;
+}
+.lastfm:hover {
+    color: #d51007;
+}
+
+
+.love {
+
+    margin-bottom: 0;
+    color: #333333;
+
+    .fa-heart {
+        color: #C0392B;
+    }
+
+}
+
+p {
+    letter-spacing: .01rem;
+}
+
+.footersome a {
+    border:0;
+    color:rgba(0,0,0,0.4);
+    @include rem(margin,0 2px 0 0);
+}
+
+.footersome a:hover {
+    @extend .wobble-vertical;
+}
