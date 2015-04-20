@@ -1,5 +1,9 @@
+access.log
+error.log
 dandelion.yml
 jquery-lifestream/
 node_modules/
-
+old/node_modules
+old/bower_components
 config.codekit
+bower_components
