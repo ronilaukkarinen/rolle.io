@@ -1,8 +1,8 @@
 {
-  "name": "yourprojectname",
+  "name": "rolle.io",
   "version": "1.0.0",
-  "description": "yourprojectname powered modern-html5-boilerplate",
-  "author": "Your Name",
+  "description": "rolle.io powered modern-html5-boilerplate",
+  "author": "Roni Laukkarinen",
   "devDependencies": {
     "browser-sync": "^2.4.0",
     "gulp": "^3.8.11",

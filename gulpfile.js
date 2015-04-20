@@ -149,8 +149,7 @@ gulp.task('js', function() {
 
       gulp.src(
         [
-          'bower_components/jquery/src/jquery.js',
-          'bower_components/respond-minmax/src/respond.js',
+          'bower_components/jquery/dist/jquery.js',
           jsSrc + '/scripts.js',
         ])
         .pipe(concat('all.js'))
