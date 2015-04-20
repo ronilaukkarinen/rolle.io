@@ -1,3 +1,5 @@
+.sass_cache
+old/.sass_cache
 access.log
 error.log
 dandelion.yml
